@@ -10,5 +10,14 @@ package newpackage;
  * @author apolo13
  */
 public class NewClass {
+    String oso;
+
+    public String getOso() {
+        return oso;
+    }
+
+    public void setOso(String oso) {
+        this.oso = oso;
+    }
     
 }
