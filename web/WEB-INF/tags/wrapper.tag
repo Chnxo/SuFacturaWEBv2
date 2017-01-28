@@ -7,11 +7,9 @@
         <jsp:include page="/WEB-INF/templates/default/metadata.jsp" />
         <jsp:include page="/WEB-INF/templates/default/css.jsp" />
     </head>
-    <body>   
-        <div id="wrapper">
-            <jsp:include page="/WEB-INF/templates/default/navigation.jsp" />
-            <jsp:doBody/>        
-            <jsp:include page="/WEB-INF/templates/default/js.jsp" />
-        </div>
+    <body>           
+        <jsp:include page="/WEB-INF/templates/default/navigation.jsp" />
+        <jsp:doBody/>        
+        <jsp:include page="/WEB-INF/templates/default/js.jsp" />        
     </body>    
 </html>
